@@ -1,0 +1,16 @@
+body{
+   display: flex;
+   color: rgb(37, 29, 29);
+   
+}
+div{
+    justify-content: center;
+
+
+
+}
+
+ div #addtaskbutton{
+    margin-left: 120px;
+    margin-top: 10px;
+}
