@@ -15,19 +15,6 @@ border-radius: 5px;
 
 }
 
- div #addtaskbutton{
-    margin-left: 120px;
-    margin-top: 10px;
-}
-#addtaskbutton{
-    color: rgb(221, 169, 55);
-    background-color: rgb(64, 99, 64);
-}
-.remove-button{
-    color: rgb(93, 153, 36);
-    background-color: brown;
-}
-=======
 body{
    display: flex;
    color: rgb(37, 29, 29);
