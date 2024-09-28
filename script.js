@@ -18,10 +18,7 @@ removeButton.onclick = function () {
 
 };
 
-
 taskInput.value = '';
-
-
 
 }
 
