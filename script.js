@@ -12,7 +12,6 @@ removeButton.textContent = 'Remove';
 removeButton.className = 'remove-button';
 li.appendChild(removeButton)
 taskList.appendChild(li)
-
 removeButton.onclick = function () {
     taskList.removeChild(li);
 
