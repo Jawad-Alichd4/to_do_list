@@ -4,26 +4,21 @@ function addTask() {
 
 var li = document.createElement('li');
 li.textContent = taskInput.value;
-if (taskInput.value === '') {
+if (taskInput.value === '') 
    return alert("enter some text to add to list")
 
-}
-
 var removeButton = document.createElement('button');
-removeButton.textContent = 'remove';
+removeButton.textContent = 'Remove';
 removeButton.className = 'remove-button';
-removeButton.onClick = function () {
+li.appendChild(removeButton)
+taskList.appendChild(li)
+
+removeButton.onclick = function () {
     taskList.removeChild(li);
 
 };
 
-li.onClick = function () {
-    li.classList.toggle('completed');
-};
 
-li.appendChild(removeButton);
-
-taskList.appendChild(li);
 taskInput.value = '';
 
 
